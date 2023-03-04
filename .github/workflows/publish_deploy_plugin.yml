@@ -14,6 +14,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Publish package to GitHub (Deploy plugin)
-        run: mvn -V -B deploy
+        run: mvn -V -B -X deploy
         env:
           GITHUB_TOKEN: ${{ github.token }}
