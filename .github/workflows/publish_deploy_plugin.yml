@@ -1,4 +1,4 @@
-name: Publish package to GitHub using maven-deploy-plugin
+name: maven-deploy-plugin
 
 on:
   workflow_dispatch:
