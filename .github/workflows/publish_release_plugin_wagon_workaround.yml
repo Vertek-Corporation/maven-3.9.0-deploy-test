@@ -17,6 +17,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Publish package to GitHub (Release plugin)
-        run: mvn -V -B -X -Dmaven.resolver.transport=wagon release:prepare release:perform
+        run: mvn -V -B -X -Darguments=-Dmaven.resolver.transport=wagon release:prepare release:perform
         env:
           GITHUB_TOKEN: ${{ github.token }}
