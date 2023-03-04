@@ -35,7 +35,7 @@
 
     <scm>
         <connection>scm:git:git@github.com:mlork/maven-3.9.0-deploy-test.git</connection>
-        <developerConnection>${project.scm.connection}</developerConnection>
+        <developerConnection>scm:git:git@github.com:mlork/maven-3.9.0-deploy-test.git</developerConnection>
         <url>https://github.com/mlork/maven-3.9.0-deploy-test</url>
         <tag>HEAD</tag>
     </scm>
