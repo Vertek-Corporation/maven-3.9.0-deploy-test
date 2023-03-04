@@ -1,4 +1,4 @@
-name: Publish package to GitHub
+name: Publish package to GitHub using maven-deploy-plugin
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Publish package to GitHub
-        run: mvn -V -B release:prepare release:perform
+      - name: Publish package to GitHub (Deploy plugin)
+        run: mvn -V -B deploy
         env:
           GITHUB_TOKEN: ${{ github.token }}
