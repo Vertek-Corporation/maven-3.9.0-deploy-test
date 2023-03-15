@@ -33,7 +33,7 @@
         <repository>
             <id>github</id>
             <name>GitHub package repo</name>
-            <url>https://maven.pkg.github.com/mlork/maven-3.9.0-deploy-test</url>
+            <url>https://maven.pkg.github.com/Vertek-Corporation/maven-3.9.0-deploy-test</url>
         </repository>
     </distributionManagement>
 
